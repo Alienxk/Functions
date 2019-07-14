@@ -22,13 +22,13 @@ if __name__ == '__main__':
     from unittest import TestCase, main
 
     class TestIsPrime(TestCase):
-        def test_is_prime__create_a_list_of_prime_numbers_between_0_and_10000__expect_to_be_equal_expected_prime_numbers(self):
+        def test_is_prime__create_a_list_of_prime_numbers_between_0_and_10000__expect_to_be_equal_to_expected_prime_numbers(self):
             """
             Test:
                 Create a list of prime numbers between 0 and 10000
 
                 expect: result_prime_numbers
-                to be equal: expected_prime_numbers
+                to be equal to: expected_prime_numbers
             """
             # arrange
             expected_prime_numbers = \
